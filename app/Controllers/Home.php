@@ -6,9 +6,16 @@ class Home extends BaseController
 {
     public function index()
     {
+        $BLOGID = $_ENV['BLOGGER_ID'];
+        $client = \Config\Services::curlrequest();
+
+        $response = $client->request('GET', 'https://www.googleapis.com/blogger/v3/blogs/'.$BLOGID.'/posts?key='.$_ENV['BLOGGER']);
+
+        $data = [ 'blogs' => json_decode($response->getBody())->items
+        ];
         $jsonld = '';
         echo view('main/mHeader', ['title'=>"About PHF Ogun", 'desc'=>"Learn more about us", 'jsonld'=>$jsonld]);
-        echo view('main/home');
+        echo view('main/home', $data);
         echo view('main/mFooter');
     }
 
@@ -61,6 +68,7 @@ class Home extends BaseController
     {
         $BLOGID = $_ENV['BLOGGER_ID'];
         $client = \Config\Services::curlrequest();
+        // dd($id);
 
         $response = $client->request('GET', 'https://www.googleapis.com/blogger/v3/blogs/'.$BLOGID.'/posts/'.$id.'?key='.$_ENV['BLOGGER']);
 
@@ -109,10 +117,10 @@ class Home extends BaseController
     }
 
 
-    private function singleBlog($y,$m,$t)
+    public function singleBlog($y,$m,$t)
     {
         $path = $y.'/'.$m.'/'.$t;
-        $url = 'https://www.googleapis.com/blogger/v3/blogs/8274183790677322710/posts/bypath?path=/'.$path.'&key=AIzaSyD-tkvtxixe1gm3hbr05upblw6P6HYzpKI';
+        $url = 'https://www.googleapis.com/blogger/v3/blogs/'.$_ENV['BLOGGER_ID'].'/posts/bypath?path=/'.$path.'&key='.$_ENV['BLOGGER'];
         $res = $this->loadContent($url);
         $re = '/<img[^>]+src=[\'"]([^\'"]+)[\'"][^>]*>/i';preg_match($re, $res->content, $matches, PREG_OFFSET_CAPTURE, 0); $extractedIMG = $matches[1][0];
         $cleanText = preg_replace('/<(?:[^"\'>]|".*?"|\'.*?\')*>|<\/?[a-zA-Z]+\b[^>]*>|[\r\n\t]+/s', '', $res->content);
@@ -147,7 +155,7 @@ class Home extends BaseController
             'content' => $res->content,
         ];
         echo view('main/header', ['title'=>$data['title']."|| PHF Ogun", 'desc'=>"Read and learn more as it is an obligation from cradle to grave", 'jsonld'=>$jsonld]);
-        echo view('main/single_post', $data);
+        echo view('main/pages', $data);
         echo view('main/footer');
     }
 

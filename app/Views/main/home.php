@@ -10,12 +10,12 @@
                                 <div class="col-12">
                                     <div class="banner-two-content text-center">
                                         <div class="wrapper">
-                                            <span class="sub">20+ Years In Business</span>
+                                            <span class="sub">Transforming educational institutions and empowering students and educators with innovative solutions.</span>
                                             <h1 class="title">
-                                                <span>Solving</span> Your Vision Is <br>
-                                                <span>Our</span> Dedication
+                                                <span>Empowering </span>Education, <br>
+                                                <span>Inspiring </span> Excellence
                                             </h1>
-                                            <a class="rts-btn btn-primary-2" href="#">View Solution</a>
+                                            <a class="rts-btn btn-primary-2" href="#services">Discover Our Services</a>
                                         </div>
                                     </div>
                                 </div>
@@ -30,12 +30,12 @@
                                 <div class="col-12">
                                     <div class="banner-two-content text-center">
                                         <div class="wrapper">
-                                            <span class="sub">20+ Years In Business</span>
+                                            <span class="sub">Providing comprehensive educational services and consultancy to foster global learning and academic excellence.</span>
                                             <h1 class="title">
-                                                <span>Boosting</span> Your Business <br> Is
-                                                <span>Our</span> Dedication
+                                                <span>Your Partner</span> in <br>
+                                                <span>Academic</span> Success
                                             </h1>
-                                            <a class="rts-btn btn-primary-2" href="#">View Solution</a>
+                                            <a class="rts-btn btn-primary-2" target="_blank" href="https://forms.google.com"> Get Started</a>
                                         </div>
                                     </div>
                                 </div>
@@ -68,7 +68,7 @@
     <!-- rts banner area end -->
 
     <!-- latest service area -->
-    <div class="rts-service-area rts-section-gap bg-service-h2">
+    <div class="rts-service-area rts-section-gap bg-service-h2" id="services">
         <div class="container">
             <div class="row">
                 <div class="title-area service-h2">
@@ -264,8 +264,8 @@
                         <img class="two" src="assets/images/service/h2/02.jpg" alt="Service_Image">
                         <img class="three" src="assets/images/service/h2/01.jpg" alt="Service_Image">
                         <div class="ratio-area">
-                            <h3 class="ratio">85%</h3>
-                            <span>Successful Ratio</span>
+                            <h3 class="ratio">98%</h3>
+                            <span>Client Satisfaction Rate</span>
                         </div>
                     </div>
                 </div>
@@ -273,34 +273,31 @@
                     <div class="service-h2-content pl--30">
                         <div class="title-area  service-h2 service">
                             <span>Why Choose Us</span>
-                            <h2 class="title">We focus to get excellent
-                                performance </h2>
+                            <h2 class="title">Committed to Achieving Outstanding Results </h2>
                         </div>
                         <div class="content-wrapper">
                             <p class="disc">
-                                Aliquet porta est cras proin donec odio curabitur convallis, penatibus vulputate
-                                facilisi montes blandit condimentum quisque platea, sociosqu ut nec nam cursus magnis
-                                leo nullam
+                                At Klients Aspire Limited, we are dedicated to delivering exceptional services that support educational excellence and innovation, significantly impacting the academic and professional journeys of our clients.
                             </p>
                             <div class="feature-one-wrapper mt--40">
                                 <div class="single-feature-one">
                                     <i class="fal fa-check"></i>
-                                    <p>Fast Growing Sells</p>
+                                    <p>Over 10,000 Students Assisted</p>
                                 </div>
                                 <div class="single-feature-one">
                                     <i class="fal fa-check"></i>
-                                    <p>24/7 Quality Services</p>
+                                    <p>More than 500 Research Projects Supported</p>
                                 </div>
                                 <div class="single-feature-one">
                                     <i class="fal fa-check"></i>
-                                    <p>Expert Members</p>
+                                    <p>80+ Capacity Development Programs</p>
                                 </div>
                                 <div class="single-feature-one">
                                     <i class="fal fa-check"></i>
-                                    <p>Best Quality Services</p>
+                                    <p>98% Client Satisfaction Rate</p>
                                 </div>
                             </div>
-                            <div class="support-team">
+                            <!-- <div class="support-team">
                                 <a href="team-details.html" class="thumbnail"><img src="assets/images/business-goal/team.png" alt="Image-team"></a>
                                 <div class="details">
                                     <span>24/7 Support Team</span>
@@ -308,7 +305,7 @@
                                         <h6 class="title">(+214) 2158.31598</h6>
                                     </a>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -444,7 +441,7 @@
     </div>
     <!-- start client review area end -->
 
-    <!-- start client area -->
+    <!-- start client area 
     <div class="rts-client-area ptb--100 client-bg">
         <div class="container">
             <div class="row">
@@ -461,7 +458,7 @@
             </div>
         </div>
     </div>
-    <!-- start client area End -->
+     start client area End -->
 
     <!-- start blog area -->
     <div class="rts-blog-area rts-section-gapTop">
@@ -474,43 +471,32 @@
             </div>
             <div class="row g-5 mt--20">
                 <!-- single Post Start -->
+                <?php foreach ($blogs as $key => $blog):?>
+                <?php if($key<2): ?>
                 <div class="col-lg-6 col-md-6">
                     <!-- single Post blog large -->
                     <div class="rts-blog-h-2-wrapper">
-                        <a href="blog-details.html" class="thumbnail">
-                            <img src="assets/images/blog/09.jpg" alt="Business_blog">
+                        <a href="<?=base_url()?>blog/<?=substr($blog->url, 34)?>" class="thumbnail">
+                            <?php $re = '/<img[^>]+src=[\'"]([^\'"]+)[\'"][^>]*>/i';preg_match($re, $blog->content, $matches, PREG_OFFSET_CAPTURE, 0); $extractedIMG = $matches[1][0]; ?>
+                            <img src="<?=$extractedIMG?>" alt="Business_blog">
                         </a>
                         <div class="body">
-                            <span>Business Solution / by David Dolean</span>
-                            <a href="blog-details.html">
-                                <h4 class="title">The quick settle tips of the new<br>
-                                    ages exist </h4>
+                            <span><?=$blog->labels[0]?></span>
+                            <!-- http://klientsaspire.blogspot.com/2024/06/ -->
+                            <a href="<?=base_url()?>blog/<?=substr($blog->url, 34)?>">
+                                <h4 class="title"><?=$blog->title?></h4>
                             </a>
+                            <p><?=substr($blog->content, 0, 100)?>...</p>
                             <a class="rts-read-more btn-primary" href="blog-details.html"><i class="far fa-arrow-right"></i>Read
                                 More</a>
                         </div>
                     </div>
                     <!-- single Post blog large End -->
                 </div>
-                <!-- single Post End -->
-                <!-- single Post Start -->
-                <div class="col-lg-6 col-md-6">
-                    <!-- single Post blog large -->
-                    <div class="rts-blog-h-2-wrapper">
-                        <a href="blog-details.html" class="thumbnail">
-                            <img src="assets/images/blog/08.jpg" alt="Business_blog">
-                        </a>
-                        <div class="body">
-                            <span>Business Solution / by David Dolean</span>
-                            <a href="blog-details.html">
-                                <h4 class="title">Business is the practice of making money</h4>
-                            </a>
-                            <a class="rts-read-more btn-primary" href="blog-details.html"><i class="far fa-arrow-right"></i>Read
-                                More</a>
-                        </div>
-                    </div>
-                    <!-- single Post blog large End -->
-                </div>
+                <?php else: ?>
+                <?php endif; ?>
+                
+                <?php endforeach; ?>
                 <!-- single Post End -->
             </div>
         </div>
