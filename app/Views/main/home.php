@@ -77,25 +77,25 @@
                 </div>
             </div>
             <div class="row g-5 mt--10">
-                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
                     <!-- single service start -->
                     <div class="rts-single-service-h2">
-                        <a href="service-details.html" class="thumbnail">
-                            <img src="assets/images/service/14.jpg" class="rounded-2xl" alt="School-Based Management Services">
+                        <a href="#cta" class="thumbnail">
+                            <img src="assets/images/service/17.jpg" class="rounded-2xl" alt="Consultancy on Research Publication">
                         </a>
                         <div class="body">
                             <a href="#cta">
-                                <h5 class="title">School-Based Management Services</h5>
+                                <h5 class="title">Research & Publication Consultancy</h5>
                             </a>
                             <p class="disc">
-                                Offering administrative and operational support to schools for improved management and efficiency.
+                                Providing guidance on systematic literature reviews (SLR), qualitative studies, and empirical research, including gap analysis and data analysis using tools like SPSS, NVIVO, SAS, AMOS, and Smart PLS.
                             </p>
                             <a href="#cta" class="btn-red-more">Learn More<i class="fas fa-arrow-right"></i></a>
                         </div>
                     </div>
                     <!-- single service End -->
                 </div>
-                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
                     <!-- single service start -->
                     <div class="rts-single-service-h2">
                         <a href="service-details.html" class="thumbnail">
@@ -113,7 +113,7 @@
                     </div>
                     <!-- single service End -->
                 </div>
-                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
                     <!-- single service start -->
                     <div class="rts-single-service-h2">
                         <a href="service-details.html" class="thumbnail">
@@ -131,25 +131,58 @@
                     </div>
                     <!-- single service End -->
                 </div>
-                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
                     <!-- single service start -->
                     <div class="rts-single-service-h2">
-                        <a href="#cta" class="thumbnail">
-                            <img src="assets/images/service/17.jpg" class="rounded-2xl" alt="Consultancy on Research Publication">
+                        <a href="service-details.html" class="thumbnail">
+                            <img src="assets/images/service/14.jpg" class="rounded-2xl" alt="School-Based Management Services">
                         </a>
                         <div class="body">
                             <a href="#cta">
-                                <h5 class="title">Consultancy on Research Publication</h5>
+                                <h5 class="title">School-Based Management Services</h5>
                             </a>
                             <p class="disc">
-                                Providing guidance on systematic literature reviews (SLR), qualitative studies, and empirical research, including gap analysis and data analysis using tools like SPSS, NVIVO, SAS, AMOS, and Smart PLS.
+                                Offering administrative and operational support to schools for improved management and efficiency.
                             </p>
                             <a href="#cta" class="btn-red-more">Learn More<i class="fas fa-arrow-right"></i></a>
                         </div>
                     </div>
                     <!-- single service End -->
                 </div>
-
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
+                    <!-- single service start -->
+                    <div class="rts-single-service-h2">
+                        <a href="service-details.html" class="thumbnail">
+                            <img src="assets/images/service/19.jpg" class="rounded-2xl" alt="Sales & Supply of Educational Resources">
+                        </a>
+                        <div class="body">
+                            <a href="#cta">
+                                <h5 class="title">Sales & Supply of Educational Resources</h5>
+                            </a>
+                            <p class="disc">
+                                Klient Aspire Limited is dedicated to offering top-tier educational resources. Our comprehensive selection is designed to meet the varied requirements of educational institutions, providing teachers and students with access to essential materials for effective learning. We supply a wide array of products, including textbooks, digital learning tools, classroom supplies, and educational aids, all aimed at enriching the educational journey and promoting academic achievement.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- single service End -->
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
+                    <!-- single service start -->
+                    <div class="rts-single-service-h2">
+                        <a href="service-details.html" class="thumbnail">
+                            <img src="assets/images/service/18.jpg" class="rounded-2xl" alt="Edu-tourism & Travelling Service">
+                        </a>
+                        <div class="body">
+                            <a href="#cta">
+                                <h5 class="title">Edu-tourism & Travelling Service</h5>
+                            </a>
+                            <p class="disc">
+                                At Klient Aspire Limited, we provide exceptional Edu-tourism and Travel Services that aim to inspire and educate. Our Edu-tourism offerings combine travel with learning experiences, offering distinctive opportunities for cultural immersion, education, and personal development. We craft customized travel itineraries featuring visits to esteemed educational institutions, historical locations, and cultural landmarks. Our objective is to deliver enriching travel experiences that expand perspectives, enhance global awareness, and support lifelong learning. Whether you are a student, educator, or enthusiastic learner, Klient Aspire Limited is your portal to transformative educational adventures.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- single service End -->
+                </div>
             </div>
         </div>
     </div>
@@ -166,7 +199,7 @@
                     <div class="body">
                         <p class="info">Contact Our Agent For Any kind off Business Help <span>(24/7 Available)</span></p>
                         <a href="tel:+2348020936989" class="number">+234 802 093 6989</a>
-                        <a href="#" class="rts-btn btn-primary-2">Contact Us</a>
+                        <a href="https://waa.me/2348020936989" class="rts-btn btn-primary-2">Contact Us</a>
                     </div>
                 </div>
             </div>
@@ -178,73 +211,35 @@
     <div class="rts-about-our-company-h2 rts-section-gap">
         <div class="container">
             <div class="row">
-                <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12 order-xl-1 order-lg-1 order-md-2 order-sm-2 order-2 mt_sm--30">
+                <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 order-xl-1 order-lg-1 order-md-2 order-sm-2 order-2 mt_sm--30">
                     <div class="title-area about-company">
                         <span>About Our Company</span>
-                        <h2 class="title">Specialized in education, research, edu-tourism, publishing, and general merchandise</h2>
+                        <h2 class="title">Specialized in education, research, publication advisory, edu-tourism, and sales and supply of educational resources.</h2>
                     </div>
                     <div class="about-company-wrapper">
-                        <p class="disc">
+                        <p class="disc pl--3">
                            The company is committed to enhancing educational experiences and supporting academic and professional development through a wide range of services designed to meet the diverse needs of students, educators, and institutions.
 
                         </p>
                         <div class="rts-tab-style-one">
                             <div class="d-flex align-items-start contoler-company">
-                                <div class="nav flex-column nav-pills me-3 button-area" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                                    <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">01. Our Mission</button>
-                                    <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">02. Our Vision</button>
-                                    <!-- <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">03. Our Destination</button> -->
+                                <div class="me-5">
+                                    <h3>Our Mission</h3>
+                                    <p class="disc">
+                                        Our mission at Klients Aspire Limited is to empower individuals and institutions by providing high-quality educational services, comprehensive research support, and innovative consultancy solutions. We aim to foster academic excellence, facilitate global learning opportunities, and contribute to the overall development of the education sector
+                                    </p>
                                 </div>
-                                <div class="tab-content" id="v-pills-tabContent">
-                                    <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
-                                        <!-- start tab content -->
-                                        <div class="rts-tab-content-one">
-                                            <p class="disc">
-                                                Our mission at Klients Aspire Limited is to empower individuals and institutions by providing high-quality educational services, comprehensive research support, and innovative consultancy solutions. We aim to foster academic excellence, facilitate global learning opportunities, and contribute to the overall development of the education sector
-                                            </p>
-                                            <a class="rts-btn btn-primary-2 color-h-black" href="#">Contact Us</a>
-                                        </div>
-                                        <!-- start tab content End -->
-                                    </div>
-                                    <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
-                                        <!-- start tab content -->
-                                        <div class="rts-tab-content-one">
-                                            <p class="disc">
-                                                Our vision is to be a leading global provider of educational services and consultancy, recognized for our commitment to excellence, innovation, and the transformative impact we have on education and research. We strive to create a world where quality education and research opportunities are accessible to all, driving positive change and development in communities worldwide.
-                                            </p>
-                                            <a class="rts-btn btn-primary-2 color-h-black" href="#">Contact Us</a>
-                                        </div>
-                                        <!-- start tab content End -->
-                                    </div>
-                                    <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
-                                        <!-- start tab content -->
-                                        <div class="rts-tab-content-one">
-                                            <p class="disc">
-                                                Massa laoreet lacinia placerat eleifend cs curae imperdiet mattis
-                                                taciti, scelerisque elementum velit ullamcorper praesent enim temp
-                                            </p>
-                                            <div class="check-area">
-                                                <i class="fas fa-check-circle"></i>
-                                                <p class="disc">
-                                                    Ultricies tellus cubilia at rutrum lobortis dui quis aliquam
-                                                </p>
-                                            </div>
-                                            <div class="check-area">
-                                                <i class="fas fa-check-circle"></i>
-                                                <p class="disc">
-                                                    Eu nisi quam senectus odio commodo quam pellente
-                                                </p>
-                                            </div>
-                                            <a class="rts-btn btn-primary-2 color-h-black" href="#">Contact Us</a>
-                                        </div>
-                                        <!-- start tab content End -->
-                                    </div>
+                                <div class="">
+                                    <h3>Our Vision</h3>
+                                    <p class="disc">
+                                        Our vision is to be a leading global provider of educational services and consultancy, recognized for our commitment to excellence, innovation, and the transformative impact we have on education and research. We strive to create a world where quality education and research opportunities are accessible to all, driving positive change and development in communities worldwide.
+                                    </p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12 order-xl-1 order-lg-1 order-md-1 order-sm-1 order-1">
+                <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 order-xl-1 order-lg-1 order-md-1 order-sm-1 order-1">
                     <div class="about-company-thumbnail">
                         <img src="assets/images/about/01.png" alt="About Klients Aspire LTD">
                     </div>
@@ -470,34 +465,9 @@
                 </div>
             </div>
             <div class="row g-5 mt--20">
-                <!-- single Post Start -->
-                <?php foreach ($blogs as $key => $blog):?>
-                <?php if($key<2): ?>
-                <div class="col-lg-6 col-md-6">
-                    <!-- single Post blog large -->
-                    <div class="rts-blog-h-2-wrapper">
-                        <a href="<?=base_url()?>blog/<?=substr($blog->url, 34)?>" class="thumbnail">
-                            <?php $re = '/<img[^>]+src=[\'"]([^\'"]+)[\'"][^>]*>/i';preg_match($re, $blog->content, $matches, PREG_OFFSET_CAPTURE, 0); $extractedIMG = $matches[1][0]; ?>
-                            <img src="<?=$extractedIMG?>" alt="Business_blog">
-                        </a>
-                        <div class="body">
-                            <span><?=$blog->labels[0]?></span>
-                            <!-- http://klientsaspire.blogspot.com/2024/06/ -->
-                            <a href="<?=base_url()?>blog/<?=substr($blog->url, 34)?>">
-                                <h4 class="title"><?=$blog->title?></h4>
-                            </a>
-                            <p><?=substr($blog->content, 0, 100)?>...</p>
-                            <a class="rts-read-more btn-primary" href="blog-details.html"><i class="far fa-arrow-right"></i>Read
-                                More</a>
-                        </div>
-                    </div>
-                    <!-- single Post blog large End -->
-                </div>
-                <?php else: ?>
-                <?php endif; ?>
+
                 
-                <?php endforeach; ?>
-                <!-- single Post End -->
+
             </div>
         </div>
     </div>

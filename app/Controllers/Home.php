@@ -9,10 +9,10 @@ class Home extends BaseController
         $BLOGID = $_ENV['BLOGGER_ID'];
         $client = \Config\Services::curlrequest();
 
-        $response = $client->request('GET', 'https://www.googleapis.com/blogger/v3/blogs/'.$BLOGID.'/posts?key='.$_ENV['BLOGGER']);
+        // $response = $client->request('GET', 'https://www.googleapis.com/blogger/v3/blogs/'.$BLOGID.'/posts?key='.$_ENV['BLOGGER']);
 
-        $data = [ 'blogs' => json_decode($response->getBody())->items
-        ];
+        // $data = [ 'blogs' => json_decode($response->getBody())->items];
+        $data = [ 'blogs' => []];
         $jsonld = '';
         echo view('main/mHeader', ['title'=>"About PHF Ogun", 'desc'=>"Learn more about us", 'jsonld'=>$jsonld]);
         echo view('main/home', $data);

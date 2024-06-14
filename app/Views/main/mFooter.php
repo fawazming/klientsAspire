@@ -1,10 +1,10 @@
     <!-- footer area start -->
-    <div class="rts-footer-area rts-section-gap footer-two footer-bg-two mt--120 mt_md--80 mt_sm--60">
+    <div class="rts-footer-area rts-section-gap footer-two footer-bg-two mt--120 mt_md--80 mt_sm--60" id="contact">
         <div class="container">
             <div class="row">
                 <!-- single wized -->
                 <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
-                    <div class="footer-two-single-wized left">
+                    <!-- <div class="footer-two-single-wized left">
                         <h3 class="title">
                             <span>Ready To</span> <br>
                         Work With Us?
@@ -13,6 +13,15 @@
                             Felis consequat magnis est fames sagittis ultrices placerat sodales porttitor quisque.
                         </p>
                         <a class="rts-btn btn-primary-2 color-h-black" href="#">Get a Quote</a>
+                    </div> -->
+                    <div class="footer-two-single-wized left">
+                        <h3 class="title">
+                            <span>Work with us</span> <br>
+                            As a Research Fellow
+                        </h3>
+                        <p class="disc">
+                            We have an opening for a smart and intelligent research fellow, kindly contact us via <u><a href="mailto:klientsaspire@gmail.com">klientsaspire@gmail.com</a></u> with your CV and tag the subject title of the email as Research Fellow
+                        </p>
                     </div>
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 mt_sm--50">
@@ -77,7 +86,7 @@
     <!-- footer area end -->
 
     <!-- copyright-area start -->
-    <div class="rts-copy-right ptb--30">
+    <div class="rts-copy-right">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
