@@ -80,17 +80,17 @@
                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
                     <!-- single service start -->
                     <div class="rts-single-service-h2">
-                        <a href="#cta" class="thumbnail">
-                            <img src="assets/images/service/17.jpg" class="rounded-2xl" alt="Consultancy on Research Publication">
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfC5E-mIw0FJZaL9nChcSckAmgvfzKfnQW4Cm-AGOa-7z_ZCw/viewform?usp=sf_link" target="_blank" class="thumbnail">
+                            <img src="assets/images/service/21.jpg" class="rounded-2xl" alt="Consultancy on Research Publication">
                         </a>
                         <div class="body">
-                            <a href="#cta">
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfC5E-mIw0FJZaL9nChcSckAmgvfzKfnQW4Cm-AGOa-7z_ZCw/viewform?usp=sf_link" target="_blank">
                                 <h5 class="title">Research & Publication Consultancy</h5>
                             </a>
                             <p class="disc">
                                 Providing guidance on systematic literature reviews (SLR), qualitative studies, and empirical research, including gap analysis and data analysis using tools like SPSS, NVIVO, SAS, AMOS, and Smart PLS.
                             </p>
-                            <a href="#cta" class="btn-red-more">Learn More<i class="fas fa-arrow-right"></i></a>
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfC5E-mIw0FJZaL9nChcSckAmgvfzKfnQW4Cm-AGOa-7z_ZCw/viewform?usp=sf_link" target="_blank" class="btn-red-more">Get Started<i class="fas fa-arrow-right"></i></a>
                         </div>
                     </div>
                     <!-- single service End -->
@@ -102,13 +102,13 @@
                             <img src="assets/images/service/15.jpg" class="rounded-2xl" alt="International & Local Admissions">
                         </a>
                         <div class="body">
-                            <a href="#cta">
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfC5E-mIw0FJZaL9nChcSckAmgvfzKfnQW4Cm-AGOa-7z_ZCw/viewform?usp=sf_link" target="_blank">
                                 <h5 class="title">International & Local Admissions</h5>
                             </a>
                             <p class="disc">
                                 Assistance with admissions processes for degree programs, including Bachelor's, Master's, and PhD programs, as well as preparation for standardized tests such as IELTS, TOEFL, and GRE.
                             </p>
-                            <a href="#cta" class="btn-red-more">Learn More<i class="fas fa-arrow-right"></i></a>
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfC5E-mIw0FJZaL9nChcSckAmgvfzKfnQW4Cm-AGOa-7z_ZCw/viewform?usp=sf_link" target="_blank" class="btn-red-more">Get Started<i class="fas fa-arrow-right"></i></a>
                         </div>
                     </div>
                     <!-- single service End -->
@@ -117,16 +117,16 @@
                     <!-- single service start -->
                     <div class="rts-single-service-h2">
                         <a href="service-details.html" class="thumbnail">
-                            <img src="assets/images/service/16.jpg" class="rounded-2xl" alt="Capacity Development Programs">
+                            <img src="assets/images/service/23.jpg" class="rounded-2xl" alt="Capacity Development Programs">
                         </a>
                         <div class="body">
-                            <a href="#cta">
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfC5E-mIw0FJZaL9nChcSckAmgvfzKfnQW4Cm-AGOa-7z_ZCw/viewform?usp=sf_link" target="_blank">
                                 <h5 class="title">Capacity Development Programs</h5>
                             </a>
                             <p class="disc">
                                 Providing training and development programs for students, lecturers, and higher education institution (HEI) managers to enhance their skills and competencies
                             </p>
-                            <a href="#cta" class="btn-red-more">Learn More<i class="fas fa-arrow-right"></i></a>
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfC5E-mIw0FJZaL9nChcSckAmgvfzKfnQW4Cm-AGOa-7z_ZCw/viewform?usp=sf_link" target="_blank" class="btn-red-more">Get Started<i class="fas fa-arrow-right"></i></a>
                         </div>
                     </div>
                     <!-- single service End -->
@@ -135,16 +135,16 @@
                     <!-- single service start -->
                     <div class="rts-single-service-h2">
                         <a href="service-details.html" class="thumbnail">
-                            <img src="assets/images/service/14.jpg" class="rounded-2xl" alt="School-Based Management Services">
+                            <img src="assets/images/service/20.jpg" class="rounded-2xl" alt="School-Based Management Services">
                         </a>
                         <div class="body">
-                            <a href="#cta">
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfC5E-mIw0FJZaL9nChcSckAmgvfzKfnQW4Cm-AGOa-7z_ZCw/viewform?usp=sf_link" target="_blank">
                                 <h5 class="title">School-Based Management Services</h5>
                             </a>
                             <p class="disc">
                                 Offering administrative and operational support to schools for improved management and efficiency.
                             </p>
-                            <a href="#cta" class="btn-red-more">Learn More<i class="fas fa-arrow-right"></i></a>
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfC5E-mIw0FJZaL9nChcSckAmgvfzKfnQW4Cm-AGOa-7z_ZCw/viewform?usp=sf_link" target="_blank" class="btn-red-more">Get Started<i class="fas fa-arrow-right"></i></a>
                         </div>
                     </div>
                     <!-- single service End -->
@@ -153,10 +153,10 @@
                     <!-- single service start -->
                     <div class="rts-single-service-h2">
                         <a href="service-details.html" class="thumbnail">
-                            <img src="assets/images/service/19.jpg" class="rounded-2xl" alt="Sales & Supply of Educational Resources">
+                            <img src="assets/images/service/22.jpg" class="rounded-2xl" alt="Sales & Supply of Educational Resources">
                         </a>
                         <div class="body">
-                            <a href="#cta">
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfC5E-mIw0FJZaL9nChcSckAmgvfzKfnQW4Cm-AGOa-7z_ZCw/viewform?usp=sf_link" target="_blank">
                                 <h5 class="title">Sales & Supply of Educational Resources</h5>
                             </a>
                             <p class="disc">
@@ -173,7 +173,7 @@
                             <img src="assets/images/service/18.jpg" class="rounded-2xl" alt="Edu-tourism & Travelling Service">
                         </a>
                         <div class="body">
-                            <a href="#cta">
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfC5E-mIw0FJZaL9nChcSckAmgvfzKfnQW4Cm-AGOa-7z_ZCw/viewform?usp=sf_link" target="_blank">
                                 <h5 class="title">Edu-tourism & Travelling Service</h5>
                             </a>
                             <p class="disc">
@@ -194,12 +194,12 @@
             <div class="row">
                 <div class="cta-h2-wrapper text-center">
                     <div class="icon">
-                        <a href="#"><i class="fas fa-phone"></i></a>
+                        <a href="https://wa.me/2348020936989"><i class="fas fa-phone"></i></a>
                     </div>
                     <div class="body">
                         <p class="info">Contact Our Agent For Any kind off Business Help <span>(24/7 Available)</span></p>
-                        <a href="tel:+2348020936989" class="number">+234 802 093 6989</a>
-                        <a href="https://waa.me/2348020936989" class="rts-btn btn-primary-2">Contact Us</a>
+                        <a href="https://wa.me/2348020936989" class="number">+234 802 093 6989</a>
+                        <a href="https://wa.me/2348020936989" class="rts-btn btn-primary-2">Contact Us</a>
                     </div>
                 </div>
             </div>

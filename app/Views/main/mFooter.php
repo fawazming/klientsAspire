@@ -42,7 +42,7 @@
                                     Lagos, Nigeria</a>
                                     <br>
                                     <span>Malaysia Address:</span>
-                                    <a href="#">3-8-7 TAMAN BAHTERA, HULU BERNAM, HULU SELANGOR, SELANGOR<br>
+                                    <a href="#">3-8-7 Taman Bahtera, Hulu Bernam, Hulu Selangor, Selangor<br>
                                     Malaysia</a>
                                 </div>
                             </div>

@@ -72,7 +72,7 @@
                         </div>
                         <div class="number-area">
                             <span>Call us anytime</span>
-                            <a href="tel:+2348020936989">
+                            <a href="https://wa.me/2348020936989">
                                 <h6 class="call">+2348020936989</h6>
                             </a>
                         </div>
@@ -108,33 +108,33 @@
                         <!-- single -->
                         <div class="single">
                             <i class="fas fa-phone-alt"></i>
-                            <a href="#">+8801234566789</a>
+                            <a href="https://wa.me/2348020936989">+2348020936989</a>
                         </div>
                         <!-- single ENd -->
                         <!-- single -->
                         <div class="single">
                             <i class="fas fa-envelope"></i>
-                            <a href="#">example@gmail.com</a>
+                            <a href="mailto:klientsaspire@gmail.com">klientsaspire@gmail.com</a>
                         </div>
                         <!-- single ENd -->
                         <!-- single -->
                         <div class="single">
                             <i class="fas fa-globe"></i>
-                            <a href="#">www.webexample.com</a>
+                            <a href="www.klientsaspire.com">www.klientsaspire.com</a>
                         </div>
                         <!-- single ENd -->
                         <!-- single -->
                         <div class="single">
                             <i class="fas fa-map-marker-alt"></i>
-                            <a href="#">13/A, New Pro State, NYC</a>
+                            <a href="#">Block 57, Plot 24, Zone C, IBA Housing Estate, Ojo, Lagos, Nigeria</a>
                         </div>
                         <!-- single ENd -->
                     </div>
                     <div class="social-wrapper-two menu">
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <!-- <a href="#"><i class="fab fa-facebook-f"></i></a>
                         <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a> -->
+                        <a href="https://wa.me/2348020936989"><i class="fab fa-whatsapp"></i></a>
                         <!-- <a href="#"><i class="fab fa-linkedin"></i></a> -->
                     </div>
                 </div>
@@ -148,10 +148,10 @@
                     </ul>
                 </nav>
                 <div class="social-wrapper-two menu mobile-menu">
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <!-- <a href="#"><i class="fab fa-facebook-f"></i></a>
                     <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a> -->
+                    <a href="https://wa.me/2348020936989"><i class="fab fa-whatsapp"></i></a>
                     <!-- <a href="#"><i class="fab fa-linkedin"></i></a> -->
                 </div>
                 <a href="#" class="rts-btn btn-primary ml--20 ml_sm--5 header-one-btn quote-btnmenu">Get Quote</a>
