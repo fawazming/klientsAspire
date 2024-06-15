@@ -436,9 +436,14 @@
     </div>
     <!-- start client review area end -->
 
-    <!-- start client area 
     <div class="rts-client-area ptb--100 client-bg">
         <div class="container">
+        <div class="row">
+                <div class="title-area text-center">
+                    <!-- <span>Blog & Article</span> -->
+                    <h2 class="title">Our Partners</h2>
+                </div>
+            </div>
             <div class="row">
                 <div class="col-12">
                     <div class="client-two-wrapper">
@@ -453,7 +458,6 @@
             </div>
         </div>
     </div>
-     start client area End -->
 
     <!-- start blog area -->
     <div class="rts-blog-area rts-section-gapTop">
