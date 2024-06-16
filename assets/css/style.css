@@ -9847,6 +9847,11 @@ Background Image
   background-image: url(https://reactheme.com/products/html/finbiz/assets/images/bg/bg-image-1.jpg);
 }
 
+.breadcrumb-bg11 {
+  background-image: url(../images/service/breadcrumb.jpg);
+  height: 250px;
+}
+
 .bg_image--2 {
   background-image: url(https://reactheme.com/products/html/finbiz/assets/images/bg/bg-image-2.jpg);
 }
@@ -32652,7 +32657,7 @@ p.disc {
 
 .progress-wrap::after {
   position: absolute;
-  font-family: "unicons";
+  font-family: "FontAwesome";
   content: "\e84b";
   text-align: center;
   line-height: 46px;
@@ -32681,7 +32686,7 @@ p.disc {
 
 .progress-wrap::before {
   position: absolute;
-  font-family: "unicons";
+  font-family: "FontAwesome";
   content: "\e84b";
   text-align: center;
   line-height: 46px;

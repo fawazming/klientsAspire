@@ -9,12 +9,12 @@ class Home extends BaseController
         $BLOGID = $_ENV['BLOGGER_ID'];
         $client = \Config\Services::curlrequest();
 
-        // $response = $client->request('GET', 'https://www.googleapis.com/blogger/v3/blogs/'.$BLOGID.'/posts?key='.$_ENV['BLOGGER']);
+        $response = $client->request('GET', 'https://www.googleapis.com/blogger/v3/blogs/'.$BLOGID.'/posts?key='.$_ENV['BLOGGER']);
 
-        // $data = [ 'blogs' => json_decode($response->getBody())->items];
-        $data = [ 'blogs' => []];
+        $data = [ 'blogs' => json_decode($response->getBody())->items];
+        // $data = [ 'blogs' => []];
         $jsonld = '';
-        echo view('main/mHeader', ['title'=>"About PHF Ogun", 'desc'=>"Learn more about us", 'jsonld'=>$jsonld]);
+        echo view('main/mHeader', ['title'=>"About Klients Aspire LTD", 'desc'=>"Learn more about us", 'jsonld'=>$jsonld]);
         echo view('main/home', $data);
         echo view('main/mFooter');
     }
@@ -27,13 +27,13 @@ class Home extends BaseController
 
         $response = $client->request('GET', 'https://www.googleapis.com/blogger/v3/blogs/'.$BLOGID.'/posts?key='.$_ENV['BLOGGER']);
 
-        $data = [ 'blogs' => json_decode($response->getBody())->items
-        ];
+        $data = [ 'blogs' => json_decode($response->getBody())->items];
+        $jsonld = '';
 
-        dd($data);
-        // echo view('header');
-        // echo view('blog', $data);
-        // echo view('footer');
+        // dd($data);
+        echo view('main/mHeader', ['title'=>"About Klients Aspire LTD", 'desc'=>"Learn more about us", 'jsonld'=>$jsonld]);
+        echo view('main/blog', $data);
+        echo view('main/mFooter');
     }
 
     public function gallery()
@@ -86,7 +86,7 @@ class Home extends BaseController
         switch ($pg) {
             case 'about':
                 $jsonld = '';
-                echo view('main/header', ['title'=>"About PHF Ogun", 'desc'=>"Learn more about us", 'jsonld'=>$jsonld]);
+                echo view('main/header', ['title'=>"About Klients Aspire LTD", 'desc'=>"Learn more about us", 'jsonld'=>$jsonld]);
                 echo view('main/pages', $this->loadPage('7775276068026621191'));
                 echo view('main/footer');
                 break;
@@ -133,11 +133,11 @@ class Home extends BaseController
             "dateModified": "'.$res->updated.'",
             "author": {
                 "@type": "Person",
-                "name": "PHF Ogun"
+                "name": "Klients Aspire LTD"
             },
             "publisher": {
                 "@type": "Organization",
-                "name": "PHF Ogun",
+                "name": "Klients Aspire LTD",
                 "logo": {
                     "@type": "ImageObject",
                     "url": "https://phfogun.org.ng/assets/img/phf_logo.png"
@@ -151,12 +151,14 @@ class Home extends BaseController
         $data = [
             'id' => $res->id,
             'published' => explode('T', $res->published)[0] ,
+            'labels' => $res->labels[0],
             'title' => $res->title,
             'content' => $res->content,
+            'url' => base_url('blog/'.$path),
         ];
-        echo view('main/header', ['title'=>$data['title']."|| PHF Ogun", 'desc'=>"Read and learn more as it is an obligation from cradle to grave", 'jsonld'=>$jsonld]);
+        echo view('main/mHeader', ['title'=>$data['title']."|| Klients Aspire LTD", 'desc'=>"Read and learn more as it is an obligation from cradle to grave", 'jsonld'=>$jsonld]);
         echo view('main/pages', $data);
-        echo view('main/footer');
+        echo view('main/mFooter');
     }
 
     private function loadPage($pageID)

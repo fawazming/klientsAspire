@@ -55,9 +55,10 @@
                     </a>
                     <nav class="nav-main mainmenu-nav d-none d-xl-block">
                         <ul class="mainmenu">
-                            <li><a class="nav-item" href="index"><i class="fas fa-home"></i> Home</a></li>
-                            <li><a class="nav-item" href="#services">Our Services</a></li>
+                            <li><a class="nav-item" href="<?=base_url('/')?>"><i class="fas fa-home"></i> Home</a></li>
+                            <li><a class="nav-item" href="<?=base_url('/')?>#services">Our Services</a></li>
                             <li><a class="nav-item" href="#contact">Career</a></li>
+                            <li><a class="nav-item" href="<?=base_url('blog')?>">Blog</a></li>
                             <li><a class="nav-item" href="#contact">Contact</a></li>
 
                         </ul>

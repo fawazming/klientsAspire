@@ -310,7 +310,7 @@
     <!-- start service area End -->
 
     <!-- start client review area start -->
-    <div class="rts-client-review-two rts-section-gapTop bg-client-r-h2">
+    <!-- <div class="rts-client-review-two rts-section-gapTop bg-client-r-h2">
         <div class="container">
             <div class="row mt--30">
                 <div class="title-area left-right testimonial-h2">
@@ -330,7 +330,6 @@
                     <div class="swiper mySwiperh2_clients">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
-                                <!-- single client reviews -->
                                 <div class="rts-client-reviews-h2">
                                     <div class="review-header">
                                         <a href="#" class="thumbnail">
@@ -360,80 +359,13 @@
                                         </div>
                                     </div>
                                 </div>
-                                <!-- single client reviews End -->
-                            </div>
-                            <div class="swiper-slide">
-                                <!-- single client reviews -->
-                                <div class="rts-client-reviews-h2">
-                                    <div class="review-header">
-                                        <a href="#" class="thumbnail">
-                                            <img src="assets/images/testimonials/03.png" alt="testimonials_area">
-                                        </a>
-                                        <div class="discription">
-                                            <a href="#">
-                                                <h6 class="title">Mark Jone</h6>
-                                            </a>
-                                            <span>Finance</span>
-                                        </div>
-                                    </div>
-                                    <div class="review-body">
-                                        <p class="disc">
-                                            “Dabus nisl aliquet congue tellus nascetur lectus sagpien mattis arcu dictums augue
-                                            volutpat felis etiam suspendisse rhoncus mauris dignissim ante”
-                                        </p>
-                                        <div class="body-end">
-                                            <a href="#"><img src="assets/images/testimonials/icon/logo-02.png" alt="Client_logo"></a>
-                                            <div class="star-icon">
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- single client reviews End -->
-                            </div>
-                            <div class="swiper-slide">
-                                <!-- single client reviews -->
-                                <div class="rts-client-reviews-h2">
-                                    <div class="review-header">
-                                        <a href="#" class="thumbnail">
-                                            <img src="assets/images/testimonials/04.png" alt="testimonials_area">
-                                        </a>
-                                        <div class="discription">
-                                            <a href="#">
-                                                <h6 class="title">Lord Korn</h6>
-                                            </a>
-                                            <span>Finance</span>
-                                        </div>
-                                    </div>
-                                    <div class="review-body">
-                                        <p class="disc">
-                                            “Dabus nisl aliquet congue tellus nascetur lectus sagpien mattis arcu dictums augue
-                                            volutpat felis etiam suspendisse rhoncus mauris dignissim ante”
-                                        </p>
-                                        <div class="body-end">
-                                            <a href="#"><img src="assets/images/testimonials/icon/logo-03.png" alt="Client_logo"></a>
-                                            <div class="star-icon">
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- single client reviews End -->
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- start client review area end -->
 
     <div class="rts-client-area ptb--100 client-bg">
@@ -469,7 +401,29 @@
                 </div>
             </div>
             <div class="row g-5 mt--20">
-
+            <?php foreach ($blogs as $key => $blog):?>
+                <?php if($key<2): ?>
+                <div class="col-lg-6 col-md-6">
+                    <div class="rts-blog-h-2-wrapper">
+                        <a href="<?=base_url()?>blog/<?=substr($blog->url, 34)?>" class="thumbnail">
+                            <?php $re = '/<img[^>]+src=[\'"]([^\'"]+)[\'"][^>]*>/i';preg_match($re, $blog->content, $matches, PREG_OFFSET_CAPTURE, 0); $extractedIMG = $matches[1][0]; ?>
+                            <img src="<?=$extractedIMG?>" alt="Business_blog">
+                        </a>
+                        <div class="body">
+                            <span><?=$blog->labels[0]?></span>
+                            <a href="<?=base_url()?>blog/<?=substr($blog->url, 34)?>">
+                                <h4 class="title"><?=$blog->title?></h4>
+                            </a>
+                            <p><?=substr($blog->content, 0, 100)?>...</p>
+                            <a class="rts-read-more btn-primary" href="<?=base_url()?>blog/<?=substr($blog->url, 34)?>"><i class="far fa-arrow-right"></i>Read
+                                More</a>
+                        </div>
+                    </div>
+                </div>
+                <?php else: ?>
+                <?php endif; ?>
+                
+                <?php endforeach; ?>
                 
 
             </div>
