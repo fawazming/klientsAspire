@@ -19,6 +19,11 @@ class Home extends BaseController
         echo view('main/mFooter');
     }
 
+    public function test()
+    {
+        echo view('test');
+    }
+
 
     public function blog()
     {

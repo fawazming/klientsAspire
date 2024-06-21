@@ -162,6 +162,7 @@
                             <p class="disc">
                                 Klient Aspire Limited is dedicated to offering top-tier educational resources. Our comprehensive selection is designed to meet the varied requirements of educational institutions, providing teachers and students with access to essential materials for effective learning. We supply a wide array of products, including textbooks, digital learning tools, classroom supplies, and educational aids, all aimed at enriching the educational journey and promoting academic achievement.
                             </p>
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfC5E-mIw0FJZaL9nChcSckAmgvfzKfnQW4Cm-AGOa-7z_ZCw/viewform?usp=sf_link" target="_blank" class="btn-red-more">Get Started<i class="fas fa-arrow-right"></i></a>
                         </div>
                     </div>
                     <!-- single service End -->
@@ -179,6 +180,7 @@
                             <p class="disc">
                                 At Klient Aspire Limited, we provide exceptional Edu-tourism and Travel Services that aim to inspire and educate. Our Edu-tourism offerings combine travel with learning experiences, offering distinctive opportunities for cultural immersion, education, and personal development. We craft customized travel itineraries featuring visits to esteemed educational institutions, historical locations, and cultural landmarks. Our objective is to deliver enriching travel experiences that expand perspectives, enhance global awareness, and support lifelong learning. Whether you are a student, educator, or enthusiastic learner, Klient Aspire Limited is your portal to transformative educational adventures.
                             </p>
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfC5E-mIw0FJZaL9nChcSckAmgvfzKfnQW4Cm-AGOa-7z_ZCw/viewform?usp=sf_link" target="_blank" class="btn-red-more">Get Started<i class="fas fa-arrow-right"></i></a>
                         </div>
                     </div>
                     <!-- single service End -->
@@ -379,12 +381,10 @@
             <div class="row">
                 <div class="col-12">
                     <div class="client-two-wrapper">
-                        <img src="assets/images/client/01.png" alt="Business_client">
-                        <img src="assets/images/client/02.png" alt="Business_client">
-                        <img src="assets/images/client/03.png" alt="Business_client">
-                        <img src="assets/images/client/04.png" alt="Business_client">
-                        <img src="assets/images/client/05.png" alt="Business_client">
-                        <img src="assets/images/client/06.png" alt="Business_client">
+                        <img src="assets/images/client/11.png" alt="Perfect Choice Educational Consult">
+                        <img src="assets/images/client/12.png" alt="Royal Coast Travels Limited">
+                        <img src="assets/images/client/9.jpg" alt="Arc Light Foundation">
+                        <img src="assets/images/client/10.jpg" alt="Masgi Resources">
                     </div>
                 </div>
             </div>
