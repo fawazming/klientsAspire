@@ -19007,7 +19007,7 @@ button.menu.rts-btn.btn-primary-3-menu:hover .menu-light {
 }
 
 .banner-two {
-  background-image: url(https://reactheme.com/products/html/finbiz/assets/images/banner/banner-05.png);
+  background-image: url(../images/banner/banner-05.jpg);
   height: 850px;
   background-repeat: no-repeat;
   position: relative;
@@ -19021,7 +19021,7 @@ button.menu.rts-btn.btn-primary-3-menu:hover .menu-light {
   }
 }
 .banner-two.slide-2 {
-  background-image: url(https://reactheme.com/products/html/finbiz/assets/images/banner/banner-06.png);
+  background-image: url(../images/banner/banner-05.jpg);
 }
 .banner-two.slide-3 {
   background-image: url(https://reactheme.com/products/html/finbiz/assets/images/banner/banner-07.png);

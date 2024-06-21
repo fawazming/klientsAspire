@@ -24,6 +24,11 @@ class Home extends BaseController
         echo view('test');
     }
 
+    public function services()
+    {
+        return redirect()->to('https://docs.google.com/forms/d/e/1FAIpQLSfC5E-mIw0FJZaL9nChcSckAmgvfzKfnQW4Cm-AGOa-7z_ZCw/viewform?usp=sf_link');
+    }
+
 
     public function blog()
     {

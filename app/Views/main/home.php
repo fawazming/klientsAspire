@@ -35,7 +35,7 @@
                                                 <span>Your Partner</span> in <br>
                                                 <span>Academic</span> Success
                                             </h1>
-                                            <a class="rts-btn btn-primary-2" target="_blank" href="https://forms.google.com"> Get Started</a>
+                                            <a class="rts-btn btn-primary-2" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSfC5E-mIw0FJZaL9nChcSckAmgvfzKfnQW4Cm-AGOa-7z_ZCw/viewform?usp=sf_link"> Get Started</a>
                                         </div>
                                     </div>
                                 </div>

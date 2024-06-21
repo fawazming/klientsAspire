@@ -5,7 +5,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kilents Aspire LTD</title>
+    
+    <!-- Primary Meta Tags -->
+    <title>Kilents Aspire LTD || Your Partner in Academic Success</title>
+    <meta name="title" content="Kilents Aspire LTD || Your Partner in Academic Success" />
+    <meta name="description" content="Klients Aspire specializes in education, research, publication advisory, edu-tourism, and sales and supply of educational resources" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://klientsaspire.sgm.ng/" />
+    <meta property="og:title" content="Kilents Aspire LTD || Your Partner in Academic Success" />
+    <meta property="og:description" content="Klients Aspire specializes in education, research, publication advisory, edu-tourism, and sales and supply of educational resources" />
+    <meta property="og:image" content="<?=base_url('assets/images/logo/favicon.png')?>" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://klientsaspire.sgm.ng/" />
+    <meta property="twitter:title" content="Kilents Aspire LTD || Your Partner in Academic Success" />
+    <meta property="twitter:description" content="Klients Aspire specializes in education, research, publication advisory, edu-tourism, and sales and supply of educational resources" />
+    <meta property="twitter:image" content="<?=base_url('assets/images/logo/favicon.png')?>" />
+
+
+
+
     <link rel="shortcut icon" type="image/x-icon" href="<?=base_url('assets/images/logo/favicon.png')?>">
     <link rel="stylesheet" href="<?=base_url('assets/css/plugins/swiper.min.css')?>">
     <!-- <link rel="stylesheet" href="<?=base_url('assets/css/plugins/fontawesome-5.css')?>"> -->
@@ -13,8 +35,10 @@
     <link rel="stylesheet" href="https://static.fontawesome.com/css/fontawesome-app.css">
     <link rel="stylesheet" href="<?=base_url('assets/css/plugins/animate.min.css')?>">
     <link rel="stylesheet" href="<?=base_url('assets/css/plugins/unicons.css')?>">
-    <link rel="stylesheet" href="<?=base_url('assets/css/vendor/bootstrap.min.css')?>">
-    <link rel="stylesheet" href="<?=base_url('assets/css/style.css')?>">
+    <!-- <link rel="stylesheet" href="<?=base_url('assets/css/vendor/bootstrap.min.css')?>"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css" integrity="sha512-usVBAd66/NpVNfBge19gws2j6JZinnca12rAe2l+d+QkLU9fiG02O1X8Q6hepIpr/EYKZvKx/I9WsnujJuOmBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <link rel="stylesheet" href="<?=base_url('assets/css/style.css')?>"> -->
+    <link rel="stylesheet" href="<?=base_url('assets/css/style.min.css')?>">
 </head>
 
 <body class="home-blue">
@@ -93,13 +117,13 @@
         <button class="close-icon-menu"><i class="far fa-times"></i></button>
         <!-- inner menu area desktop start -->
         <div class="rts-sidebar-menu-desktop">
-            <a class="logo-1" href="index.html"><img class="logo" src="<?=base_url('assets/images/logo/logo-1.svg')?>" alt="finbiz_logo"></a>
+            <!-- <a class="logo-1" href="index.html"><img class="logo" src="<?=base_url('assets/images/logo/logo-1.svg')?>" alt="finbiz_logo"></a>
             <a class="logo-2" href="index.html"><img class="logo" src="<?=base_url('assets/images/logo/logo-4.svg')?>" alt="finbiz_logo"></a>
             <a class="logo-3" href="index.html"><img class="logo" src="<?=base_url('assets/images/logo/logo-3.svg')?>" alt="finbiz_logo"></a>
-            <a class="logo-4" href="index.html"><img class="logo" src="<?=base_url('assets/images/logo/logo-5.svg')?>" alt="finbiz_logo"></a>
+            <a class="logo-4" href="index.html"><img class="logo" src="<?=base_url('assets/images/logo/logo-5.svg')?>" alt="finbiz_logo"></a> -->
             <div class="body d-none d-xl-block">
                 <p class="disc">
-                    We must explain to you how all seds this mistakens idea denouncing pleasures and praising account.
+                    <!-- We must explain to you how all seds this mistakens idea denouncing pleasures and praising account. -->
                 </p>
                 <div class="get-in-touch">
                     <!-- title -->
