@@ -35,9 +35,8 @@
                                 <div class="body">
                                     <span><?=$blog->labels[0]?> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <i class="fal fa-time"></i>15 Jan<span></span></span>
 
-                                    <a href="<?=base_url()?>blog/<?=substr($blog->url, 34)?>">
-                                        <h4 class="title"><?=$blog->title?></h4>
-                                    </a>
+                                         <h4 class="title"><a href="<?=base_url()?>blog/<?=substr($blog->url, 34)?>"><?=$blog->title?></a></h4>
+
                                     <p><?=substr($blog->content, 0, 160)?>...</p>
                                     <a class="rts-read-more btn-primary" href="<?=base_url()?>blog/<?=substr($blog->url, 34)?>"><i class="far fa-arrow-right"></i>Read
                                         More</a>

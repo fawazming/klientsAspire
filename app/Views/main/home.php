@@ -196,7 +196,7 @@
             <div class="row">
                 <div class="cta-h2-wrapper text-center">
                     <div class="icon">
-                        <a href="https://wa.me/2348020936989"><i class="fas fa-phone"></i></a>
+                        <a href="https://wa.me/2348020936989"><i class="fas fa-phone" title="Call Us"></i></a>
                     </div>
                     <div class="body">
                         <p class="info">Contact Our Agent For Any kind off Business Help <span>(24/7 Available)</span></p>
@@ -411,9 +411,9 @@
                         </a>
                         <div class="body">
                             <span><?=$blog->labels[0]?></span>
-                            <a href="<?=base_url()?>blog/<?=substr($blog->url, 34)?>">
-                                <h4 class="title"><?=$blog->title?></h4>
-                            </a>
+                            
+                                <h4 class="title"><a href="<?=base_url()?>blog/<?=substr($blog->url, 34)?>"><?=$blog->title?></a></h4>
+                            
                             <p><?=substr($blog->content, 0, 100)?>...</p>
                             <a class="rts-read-more btn-primary" href="<?=base_url()?>blog/<?=substr($blog->url, 34)?>"><i class="far fa-arrow-right"></i>Read
                                 More</a>

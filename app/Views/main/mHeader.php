@@ -74,8 +74,8 @@
         <div class="main-header">
             <div class="content">
                 <div class="header-left">
-                    <a class="mr-2" href="index.html">
-                        <img src="<?=base_url('assets/images/logo/klientsAspire.png')?>" height="51" width="181" alt="">
+                    <a class="mr-2" href="<?=base_url('/')?>">
+                        <img src="<?=base_url('assets/images/logo/klientsAspire.png')?>" height="51" width="181" alt="Klients Aspire Logo">
                     </a>
                     <nav class="nav-main mainmenu-nav d-none d-xl-block">
                         <ul class="mainmenu">
