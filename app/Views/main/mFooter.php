@@ -72,6 +72,7 @@
                                 </div>
                                 <div class="disc">
                                     <span>Work with us</span>
+                                    <a href="#">office@klientsaspire.com</a>
                                     <a href="#">klientsaspire@gmail.com</a>
                                 </div>
                             </div>
