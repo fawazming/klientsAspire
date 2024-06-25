@@ -196,7 +196,7 @@
             <div class="row">
                 <div class="cta-h2-wrapper text-center">
                     <div class="icon">
-                        <a href="https://wa.me/2348020936989"><i class="fas fa-phone" title="Call Us"></i></a>
+                        <a href="https://wa.me/2348020936989"><i class="fas fa-phone" title="Call Us &#x2191;"></i></a>
                     </div>
                     <div class="body">
                         <p class="info">Contact Our Agent For Any kind off Business Help <span>(24/7 Available)</span></p>
@@ -312,7 +312,7 @@
     <!-- start service area End -->
 
     <!-- start client review area start -->
-    <!-- <div class="rts-client-review-two rts-section-gapTop bg-client-r-h2">
+    <div class="rts-client-review-two rts-section-gapTop bg-client-r-h2">
         <div class="container">
             <div class="row mt--30">
                 <div class="title-area left-right testimonial-h2">
@@ -323,7 +323,7 @@
                         </h2>
                     </div>
                     <div class="button-area">
-                        <a href="#" class="rts-btn btn-primary-2">See All Reviews</a>
+                        <!-- <a href="#" class="rts-btn btn-primary-2">See All Reviews</a> -->
                     </div>
                 </div>
             </div>
@@ -334,22 +334,21 @@
                             <div class="swiper-slide">
                                 <div class="rts-client-reviews-h2">
                                     <div class="review-header">
-                                        <a href="#" class="thumbnail">
+                                        <!-- <a href="#" class="thumbnail">
                                             <img src="assets/images/testimonials/02.png" alt="testimonials_area">
-                                        </a>
+                                        </a> -->
                                         <div class="discription">
                                             <a href="#">
-                                                <h6 class="title">David Smith</h6>
+                                                <h6 class="title">Dr. Adedayo Taofeek Quadri</h6>
                                             </a>
-                                            <span>Finance</span>
+                                            <span>Nigeria</span>
                                         </div>
                                     </div>
                                     <div class="review-body">
                                         <p class="disc">
-                                            “Dabus nisl aliquet congue tellus nascetur lectus sagpien mattis arcu dictums augue
-                                            volutpat felis etiam suspendisse rhoncus mauris dignissim ante”
+                                             "Klient Aspire Limited excels in providing high-quality research articles and data analysis services. Their team is known for its expertise and precision, ensuring that every project meets rigorous academic and professional standards. I appreciate their timely delivery and attention to detail, making them a reliable choice for research needs. Their innovative approach to data analysis helps clients derive meaningful insights. Klient Aspire Limited is highly recommended for those seeking top-notch research and analytical services.”
                                         </p>
-                                        <div class="body-end">
+                                        <!-- <div class="body-end">
                                             <a href="#"><img src="assets/images/testimonials/icon/logo-01.png" alt="Client_logo"></a>
                                             <div class="star-icon">
                                                 <i class="fas fa-star"></i>
@@ -358,7 +357,41 @@
                                                 <i class="fas fa-star"></i>
                                                 <i class="fas fa-star"></i>
                                             </div>
+                                        </div> -->
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="rts-client-reviews-h2">
+                                    <div class="review-header">
+                                        <div class="discription">
+                                            <a href="#">
+                                                <h6 class="title">Idris Fadheelah</h6>
+                                            </a>
+                                            <span>Saudi Arabia</span>
                                         </div>
+                                    </div>
+                                    <div class="review-body">
+                                        <p class="disc">
+                                             "Thanks for prompt response and job well done, I will definitely send referrals and do more business with you in the future 👍.”
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="rts-client-reviews-h2">
+                                    <div class="review-header">
+                                        <div class="discription">
+                                            <a href="#">
+                                                <h6 class="title">Shokunbi M. O.</h6>
+                                            </a>
+                                            <span>University Brunei Darussalam</span>
+                                        </div>
+                                    </div>
+                                    <div class="review-body">
+                                        <p class="disc">
+                                             "Apart from the quality job received, I enjoyed the professional relationship kept with me throughout doing business with the company. I hope to participate in the future in any of their programs.”
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -367,7 +400,7 @@
                 </div>
             </div>
         </div>
-    </div> -->
+    </div>
     <!-- start client review area end -->
 
     <div class="rts-client-area ptb--100 client-bg">

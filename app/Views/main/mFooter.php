@@ -75,6 +75,13 @@
                                     <a href="#">klientsaspire@gmail.com</a>
                                 </div>
                             </div>
+                            <div class="contact-info-1">
+                                    <a href="https://twitter.com/KlientsL41128" class="icon mr--30"><i class="fab fa-twitter"></i></a>
+                                    <a href="#" class="icon mr--30"><i class="fab fa-instagram"></i></a>
+                                    <a href="https://wa.me/2348020936989" class="icon mr--30"><i class="fab fa-whatsapp"></i></a>
+                                    <a href="https://www.linkedin.com/company/klients-aspire-limited" class="icon mr--30"><i class="fab fa-linkedin"></i></a>
+                                <!-- <a href="#"><i class="fab fa-facebook-f"></i></a> -->
+                            </div>
                         </div>
                     </div>
                 </div>

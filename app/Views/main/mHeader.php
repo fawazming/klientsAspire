@@ -167,9 +167,11 @@
             <div class="body-mobile d-block d-xl-none">
                 <nav class="nav-main mainmenu-nav">
                     <ul class="mainmenu">
-                        <li class="menu-item"><a class="menu-link" href="<?=base_url('/')?>">Home</a></li>
-                        <li class="menu-item"><a class="menu-link" href="<?=base_url('/about')?>">About Us</a></li>
-                        <li class="menu-item menu-item"><a class="menu-link" href="<?=base_url('/contact')?>">Contact</a></li>
+                        <li><a class="menu-item" href="<?=base_url('/')?>"><i class="fas fa-home"></i> Home</a></li>
+                        <li><a class="menu-item" href="<?=base_url('/')?>#services">Our Services</a></li>
+                        <li><a class="menu-item" href="#contact">Career</a></li>
+                        <li><a class="menu-item" href="<?=base_url('blog')?>">Blog</a></li>
+                        <li><a class="menu-item" href="#contact">Contact</a></li></li>
                     </ul>
                 </nav>
                 <div class="social-wrapper-two menu mobile-menu">
