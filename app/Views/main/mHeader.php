@@ -96,7 +96,7 @@
                             </svg>
                         </div>
                         <div class="number-area">
-                            <span>Call us anytime</span>
+                            <span>Available 24/7</span>
                             <a href="https://wa.me/2348020936989">
                                 <h6 class="call">+2348020936989</h6>
                             </a>

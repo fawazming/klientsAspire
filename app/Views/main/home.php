@@ -226,15 +226,15 @@
                         <div class="rts-tab-style-one">
                             <div class="d-flex align-items-start contoler-company">
                                 <div class="me-5">
-                                    <h3>Our Mission</h3>
+                                    <h3>Mission Statement</h3>
                                     <p class="disc">
-                                        Our mission at Klients Aspire Limited is to empower individuals and institutions by providing high-quality educational services, comprehensive research support, and innovative consultancy solutions. We aim to foster academic excellence, facilitate global learning opportunities, and contribute to the overall development of the education sector
+                                        At Klients Aspire Limited, we empower individuals and institutions through high-quality educational services, comprehensive research support, and innovative consultancy solutions, fostering academic excellence and global learning opportunities.
                                     </p>
                                 </div>
                                 <div class="">
-                                    <h3>Our Vision</h3>
+                                    <h3>Vision Statement</h3>
                                     <p class="disc">
-                                        Our vision is to be a leading global provider of educational services and consultancy, recognized for our commitment to excellence, innovation, and the transformative impact we have on education and research. We strive to create a world where quality education and research opportunities are accessible to all, driving positive change and development in communities worldwide.
+                                        We aspire to be a leading global provider of educational services and consultancy, recognized for excellence, innovation, and transformative impact. Our goal is to make quality education and research accessible to all, driving positive change and development worldwide.
                                     </p>
                                 </div>
                             </div>
@@ -391,6 +391,23 @@
                                     <div class="review-body">
                                         <p class="disc">
                                              "Apart from the quality job received, I enjoyed the professional relationship kept with me throughout doing business with the company. I hope to participate in the future in any of their programs.”
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="rts-client-reviews-h2">
+                                    <div class="review-header">
+                                        <div class="discription">
+                                            <a href="#">
+                                                <h6 class="title">Qian Li</h6>
+                                            </a>
+                                            <span>China</span>
+                                        </div>
+                                    </div>
+                                    <div class="review-body">
+                                        <p class="disc">
+                                             "The company emphasises integrity and exceptional service. They promptly address customers' reasonable requests for journal publication services, and their publication quality is excellent, making them highly recommended.”
                                         </p>
                                     </div>
                                 </div>
