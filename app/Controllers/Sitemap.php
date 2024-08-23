@@ -20,7 +20,7 @@ class Sitemap extends BaseController
 		$this->sitemapmodel->add(base_url('gallery'), date('Y-m-d', time()));
 		// $this->sitemapmodel->add(base_url('sitemap/articles'), date('Y-m-d', time()));
 		
-		$data = $this->sitemapmodel->output('sitemapindex');
+		$data = $this->sitemapmodel->output('urlset');
 		if (! write_file(WRITEPATH.'../sitemap.xml', $data)) {
 			echo 'Unable to write the file';
 		} else {
