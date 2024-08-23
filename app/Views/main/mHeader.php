@@ -83,6 +83,7 @@
                             <li><a class="nav-item" href="<?=base_url('/')?>#services">Our Services</a></li>
                             <li><a class="nav-item" href="#contact">Career</a></li>
                             <li><a class="nav-item" href="<?=base_url('blog')?>">Blog</a></li>
+                            <li><a class="nav-item" href="https://resources.klientsaspire.com" target="_blank">Resources</a></li>
                             <li><a class="nav-item" href="#contact">Contact</a></li>
 
                         </ul>
@@ -102,7 +103,11 @@
                             </a>
                         </div>
                     </div>
-                    <a class="rts-btn btn-primary-2 menu-block-none" href="https://wa.me/2348020936989">Book a Meeting</a>
+                    <div class="flex flex-col">
+                        <a class="rts-btn rts-btn-1 mb-1 btn-primary-2 menu-block-none" href="https://wa.me/2348020936989">Book a Meeting</a>
+                        <a class="rts-btn rts-btn-1 btn-primary menu-block-none" href="https://resources.klientsaspire.com" target="_blank">Access our Products</a>
+                    </div>
+                    
                     <button id="menu-btn" class="menu rts-btn btn-primary-alta ml--20">
                         <img class="menu-dark" src="<?=base_url('assets/images/icon/menu.png')?>" alt="Menu-icon">
                         <img class="menu-light" src="<?=base_url('assets/images/icon/menu-light.png')?>" alt="Menu-icon">
@@ -171,6 +176,7 @@
                         <li><a class="menu-item" href="<?=base_url('/')?>#services">Our Services</a></li>
                         <li><a class="menu-item" href="#contact">Career</a></li>
                         <li><a class="menu-item" href="<?=base_url('blog')?>">Blog</a></li>
+                        <li><a class="menu-item" href="https://resources.klientsaspire.com">Resources</a></li>
                         <li><a class="menu-item" href="#contact">Contact</a></li></li>
                     </ul>
                 </nav>
@@ -181,7 +187,7 @@
                     <a href="https://wa.me/2348020936989"><i class="fab fa-whatsapp"></i></a>
                     <!-- <a href="#"><i class="fab fa-linkedin"></i></a> -->
                 </div>
-                <a href="#" class="rts-btn btn-primary ml--20 ml_sm--5 header-one-btn quote-btnmenu">Get Quote</a>
+                <a href="https://wa.me/2348020936989" class="rts-btn btn-primary ml--20 ml_sm--5 header-one-btn quote-btnmenu">Book a Meeting</a>
             </div>
         </div>
         <!-- inner menu area desktop End -->

@@ -37,13 +37,13 @@
                                 </div>
                                 <div class="disc">
                                     <!-- <span>Our Location</span> -->
-                                    <span>Nigeria Address:</span>
-                                    <a href="#">Block 57, Plot 24, Zone C, IBA Housing Estate, Ojo<br>
-                                    Lagos, Nigeria</a>
-                                    <br>
                                     <span>Malaysia Address:</span>
                                     <a href="#">3-8-7 Taman Bahtera, Hulu Bernam, Hulu Selangor, Selangor<br>
                                     Malaysia</a>
+                                    <br>
+                                    <span>Nigeria Address:</span>
+                                    <a href="#">Block 57, Plot 24, Zone C, IBA Housing Estate, Ojo<br>
+                                    Lagos, Nigeria</a>
                                 </div>
                             </div>
                         </div>
@@ -63,7 +63,8 @@
                                 </div>
                                 <div class="disc">
                                     <span>Call Us 24/7</span>
-                                    <a href="#">+2348020936989</a>
+                                    <a href="tel:+60185775870">+60185775870</a>
+                                    <a href="tel:+2348020936989">+2348020936989</a>
                                 </div>
                             </div>
                             <div class="contact-info-1">
