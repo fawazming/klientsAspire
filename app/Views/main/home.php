@@ -200,7 +200,7 @@
                     </div>
                     <div class="body">
                         <p class="info">Contact Our Agent For Any kind off Business Help <span>(24/7 Available)</span></p>
-                        <a href="https://wa.me/2348020936989" class="number">+234 802 093 6989</a>
+                        <a href="https://wa.me/2348020936989" class="number">+601 8577 5870</a>
                         <a href="https://wa.me/2348020936989" class="rts-btn btn-primary-2">Contact Us</a>
                     </div>
                 </div>

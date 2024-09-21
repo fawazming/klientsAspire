@@ -99,7 +99,7 @@
                         <div class="number-area">
                             <span>Available 24/7</span>
                             <a href="https://wa.me/2348020936989">
-                                <h6 class="call">+2348020936989</h6>
+                                <h6 class="call">+60185775870</h6>
                             </a>
                         </div>
                     </div>
