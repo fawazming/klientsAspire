@@ -22,7 +22,9 @@
     <!-- rts blog grid area -->
     <div class="rts-blog-grid-area rts-section-gap">
         <div class="container">
-            <div class="row g-5">
+            <!-- <div class="row g-5"> -->
+                <!-- <div class="col-xl-8 col-md-12 col-sm-12 col-12 pr--40 pr_md--0 pr_sm-controler--0"> -->
+                    <div class="row g-5">
                         <?php foreach ($blogs as $key => $blog):?>
                         <div class="col-lg-6 col-md-6">
                             <div class="rts-blog-h-2-wrapper">
@@ -35,14 +37,45 @@
 
                                          <h4 class="title"><a href="<?=base_url()?>blog/<?=substr($blog->url, 34)?>"><?=$blog->title?></a></h4>
 
-                                    <p><?=htmlspecialchars(function_exists('mb_substr') ? mb_substr(strip_tags($blog->content ?? ''), 0, 200, 'UTF-8') : substr(strip_tags($blog->content ?? ''), 0, 200))?>...</p>
+                                    <p><?=substr($blog->content, 0, 160)?>...</p>
                                     <a class="rts-read-more btn-primary" href="<?=base_url()?>blog/<?=substr($blog->url, 34)?>"><i class="far fa-arrow-right"></i>Read
                                         More</a>
                                 </div>
                             </div>
                         </div>
                         <?php endforeach; ?>
+                        <!-- <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                            <div class="blog-grid-inner">
+                                <div class="blog-header">
+                                    <a class="thumbnail" href="blog-details.html">
+                                        <img src="assets/images/blog/grid/01.jpg" alt="Business_Blog">
+                                    </a>
+                                    <div class="blog-info">
+                                        <div class="user">
+                                            <i class="fal fa-user-circle"></i>
+                                            <span>by Smith</span>
+                                        </div>
+                                        <div class="user">
+                                            <i class="fal fa-tags"></i>
+                                            <span>Business</span>
+                                        </div>
+                                    </div>
+                                    <div class="date">
+                                        <h6 class="title">15</h6>
+                                        <span>Jan</span>
+                                    </div>
+                                </div>
+                                <div class="blog-body">
+                                    <a href="blog-details.html">
+                                        <h5 class="title">
+                                            Building smart business grow solution for you
+                                        </h5>
+                                    </a>
+                                </div>
+                            </div>
+                        </div> -->
                     </div>
                 </div>
+            <!-- </div> -->
         </div>
     </div>
