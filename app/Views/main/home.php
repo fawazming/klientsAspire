@@ -185,6 +185,24 @@
                     </div>
                     <!-- single service End -->
                 </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
+                    <!-- single service start -->
+                    <div class="rts-single-service-h2">
+                        <a href="service-details.html" class="thumbnail">
+                            <img src="assets/images/service/24.jpg" class="rounded-2xl" alt="Online Class">
+                        </a>
+                        <div class="body">
+                            <a href="https://forms.gle/sPSs2sgsSzsMChgB9" target="_blank">
+                                <h5 class="title">Online Classes</h5>
+                            </a>
+                            <p class="disc">
+                                Our instructors are Cambridge-certified IGCSE educators and Cambridge-accredited examiners, ensuring students receive expert guidance aand world-class learning experiences.
+                            </p>
+                            <a href="https://forms.gle/sPSs2sgsSzsMChgB9" target="_blank" class="btn-red-more">Get Started<i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <!-- single service End -->
+                </div>
             </div>
         </div>
     </div>
@@ -464,7 +482,7 @@
                             
                                 <h4 class="title"><a href="<?=base_url()?>blog/<?=substr($blog->url, 34)?>"><?=$blog->title?></a></h4>
                             
-                            <p><?=substr($blog->content, 0, 100)?>...</p>
+                            <p><?=htmlspecialchars(function_exists('mb_substr') ? mb_substr(strip_tags($blog->content ?? ''), 0, 200, 'UTF-8') : substr(strip_tags($blog->content ?? ''), 0, 200))?>...</p>
                             <a class="rts-read-more btn-primary" href="<?=base_url()?>blog/<?=substr($blog->url, 34)?>"><i class="far fa-arrow-right"></i>Read
                                 More</a>
                         </div>
